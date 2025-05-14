@@ -2,5 +2,48 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+  text-align: left;
+  font-family: "Avenir", Arial, Helvetica, sans-serif;
 }
+
+.form-container {
+  margin: 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 20px;
+  width: 500px;
+}
+
+.preview-area {
+  margin: 0px;
+  padding: 20px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: rgb(246, 246, 246);
+  align-content: baseline;
+}
+
+input, textarea {
+  width: 98%;
+  margin: 5px 0px;
+  padding: 8px 0px 8px 8px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+}
+
+button {
+  border-radius: 5px;
+  border: 1px solid transparent;
+  padding: 5px 10px;
+  margin: 10px 0px;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: lightgray;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  background-color: lightblue;
+}
+
